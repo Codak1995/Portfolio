@@ -1,0 +1,122 @@
+.skills-container {
+  padding: 70px 50px 70px 90px;
+  background: rgba(255, 255, 255, 0.01);
+}
+.head-sec {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.heading {
+  font-size: 4.5rem;
+  width: 70vw;
+}
+.para {
+  align-self: flex-end;
+  text-align: right;
+  color: rgba(242, 242, 237, 0.5);
+  font-weight: 300;
+  font-family: "Barlow", sans-serif;
+}
+.front-sec {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 5px;
+  flex-grow: 1;
+  max-width: 290px;
+  /* border: 1px solid white; */
+}
+.skills-set {
+  /* border: 1px solid white; */
+  padding: 20px 1px 2px 3px;
+}
+.frontend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  overflow: hidden;
+  /* background: rgba(255, 255, 255, 0.01); */
+}
+
+.layerback {
+  flex: 1 1 calc(33.333% - 1px);
+  min-width: 220px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(242, 242, 237, 0.16);
+  border-bottom: 1px solid rgba(242, 242, 237, 0.16);
+}
+
+.layerback:nth-child(3n) {
+  border-right: none;
+}
+
+.layerback:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.stack-1 {
+  color: rgba(242, 242, 237, 0.5);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+}
+.frtend {
+  border: 1px solid rgba(242, 242, 237, 0.1);
+  font-family: Barlow, sans-serif;
+  max-width: fit-content;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(242, 242, 237, 0.75);
+  padding: 8px 10px;
+}
+.icons {
+  color: #c8f53a;
+}
+.layer {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 552px) {
+  .skills-container {
+    padding: 20px 3px 4px 30px;
+    margin-right: 20px;
+  }
+  .heading {
+    font-size: 2.8rem;
+  }
+  .head-sec {
+    flex-direction: column;
+  }
+  .para {
+    text-align: left;
+    font-size: 0.9rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1em;
+  }
+  .frtend {
+    border: 1px solid rgba(242, 242, 237, 0.1);
+    font-family: Barlow, sans-serif;
+    max-width: fit-content;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: rgba(242, 242, 237, 0.75);
+    padding: 5px 7px;
+  }
+  .frontend {
+    flex-direction: column;
+  }
+
+  .layerback {
+    flex-basis: 100%;
+    min-width: 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(242, 242, 237, 0.16);
+    padding: 16px 12px;
+  }
+
+  .layerback:last-child {
+    border-bottom: none;
+  }
+}
