@@ -1,7 +1,7 @@
 .navbar-container {
   display: flex;
   justify-content: center;
-  background-color: #0c0c0f;
+  background-color: red;
   border-bottom: 1px solid transparent;
   padding: 1rem 2rem;
   position: sticky;
