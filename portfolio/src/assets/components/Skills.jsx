@@ -7,7 +7,7 @@ const Skills = () => {
         <div className="skills-section">
           <h4 className="indent">02 / SKILLS</h4>
           <div className="head-sec">
-            <h1 className="heading">
+            <h1 className="title">
               The full <br /> <span className="soft">stack.</span>
             </h1>
             <p className="para">

@@ -13,7 +13,7 @@
 .indent {
   font-size: 0.8rem;
   color: #c8f53a;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-family: "JetBrains Mono", monospace;
 }
 .title {
@@ -129,7 +129,7 @@
     display: block;
   }
   .title {
-    font-size: 2.8rem;
+    font-size: 3.3rem;
     width: max-content;
   }
   .paragraphs {
